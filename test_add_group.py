@@ -23,7 +23,7 @@ class Test12():
     self.driver.set_window_size(1139, 687)
     self.driver.find_element(By.ID, "login_username").click()
     self.driver.find_element(By.ID, "login_username").send_keys("User")
-    self.driver.find_element(By.ID, "login_passwd").send_keys("L8#@KfOse4")
+    self.driver.find_element(By.ID, "login_passwd").send_keys("")
     self.driver.find_element(By.ID, "ext-gen18").click()
     self.driver.find_element(By.CSS_SELECTOR, "#ext-gen205 > .image").click()
     self.driver.find_element(By.CSS_SELECTOR, "#ext-gen205 > .image").click()

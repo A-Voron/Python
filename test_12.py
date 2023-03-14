@@ -27,7 +27,7 @@ class Test12():
     self.driver.find_element(By.ID, "ext-gen18").click()
     self.driver.find_element(By.ID, "login_passwd").click()
     self.driver.find_element(By.ID, "sds-login-dialog").click()
-    self.driver.find_element(By.ID, "login_passwd").send_keys("L8#@KfOse4")
+    self.driver.find_element(By.ID, "login_passwd").send_keys("")
     self.driver.find_element(By.ID, "login_passwd").send_keys(Keys.ENTER)
     element = self.driver.find_element(By.ID, "ext-gen25")
     actions = ActionChains(self.driver)
